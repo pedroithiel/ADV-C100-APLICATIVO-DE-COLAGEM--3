@@ -1,0 +1,52 @@
+
+<html>
+    <head>
+       <title>Aplicativo de Colagem</title>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src ="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.min.js"></script>
+<link href="styler.css" rel="stylesheet">
+
+</head>
+ 
+<body>
+    <div class="container">
+    <center>
+        <a id = "link" href="" download="MinhaFoto.png"></a>
+        <h1>Aplicativo de Colagem
+        </h1>
+        <hr>
+        <h4 style="color:red;">Assim que o pop-up aparecer, clique em Permitir. Depois pode falar o comando.</h4>
+        
+        <div class="form-group">
+            <h3>Diga "Tire minha selfie"</h3>
+            <textarea id="textbox" class = "form-control" readonly  = "true"></textarea>
+        </div>
+
+        <p>Pressione o botão Iniciar</p>
+        <button class="btn btn-primary" onclick="iniciar()">Iniciar</button>
+        <br>
+        <br>
+        <label>Sua webcam : </label>
+        <div id="camera">
+
+        </div>
+
+        <br>
+
+        <label>Sua selfie será exibida aqui: </label>
+        <div id="result">
+
+        </div>
+
+    </center>
+    </div>
+    
+    <div class="copy_right_footer">
+        Desenvolvido por - Pedro~
+      </div>
+    <script src="main.js"></script>
+</body>
+</html
